@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-content {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border: 3px solid rgb(68, 61, 61);
+  padding: 5rem;
+  border-radius: 4px;
+  color: rgb(222, 148, 203);
+  background-color: rgb(124, 41, 141);
+  box-shadow: rgba(215, 19, 230, 0.35) 0px 5px 15px;
+}
+.container h1 {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  width: 40vw;
+  height: 7vh;
+  background-color: rgb(137, 122, 143);
+}
+.sel {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+.select input {
+  width: 8vw;
+  height: 5vh;
+}
+
+.check-Box input {
+  margin: 0.85rem;
+  background-color: rgb(46, 163, 124);
+}
+.btn button {
+  width: 32rem;
+  height: 6vh;
+  background-color: rgb(182, 11, 190);
+  color: white;
+  font-size: large;
+}
